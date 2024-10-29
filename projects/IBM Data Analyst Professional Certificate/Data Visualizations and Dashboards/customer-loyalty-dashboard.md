@@ -4,7 +4,7 @@
     <img src="https://cdn.prod.website-files.com/63ccf2f0ea97be12ead278ed/644a18b637053fa3709c5ba2_what-is-data-science.jpg" alt="Logo">
   </a>
 
-  <h3 align="center">Data Science</h3>
+  <h3 align="center">Customer Loyalty</h3>
 
   <p align="center">
     Click the dashboard image above to view this customer loyalty dashboard.
