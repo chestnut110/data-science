@@ -9,10 +9,7 @@
   <p align="center">
     Click the dashboard image above to view this customer loyalty dashboard.
     <br />
-    <a href="https://github.com/chestnut110/data-science"><strong>Explore the docs »</strong></a>
-    <br />
-    <br />
-
+    
   </p>
 </p>
 
