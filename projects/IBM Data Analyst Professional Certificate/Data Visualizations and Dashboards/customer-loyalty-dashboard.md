@@ -7,7 +7,7 @@
   <h3 align="center">Customer Loyalty</h3>
 
   <p align="center">
-    Click the dashboard image above to view this customer loyalty dashboard.
+    Click the dashboard image above to view this customer loyalty dashboard in IBM Cognos.
     <br />
     
   </p>
