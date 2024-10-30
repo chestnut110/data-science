@@ -1,6 +1,6 @@
 <br />
 <p align="center">
-  <a href="https://github.com/will-fong/data-science">
+  <a href="https://github.com/chestnut110/data-science">
     <img src="https://cdn.prod.website-files.com/63ccf2f0ea97be12ead278ed/644a18b637053fa3709c5ba2_what-is-data-science.jpg" alt="Logo">
   </a>
 
