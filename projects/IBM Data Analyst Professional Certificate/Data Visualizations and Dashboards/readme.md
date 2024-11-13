@@ -9,6 +9,7 @@
   <p align="center">
     Click the dashboard image above to view this customer loyalty dashboard in IBM Cognos.
     <br />
+
     
   </p>
 </p>
