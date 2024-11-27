@@ -1,1 +1,1 @@
-Using the Yahoo Sports API, I created a data pipeline that retrieves data from Yahoo Sports. I cleaned this data and used it for analysis in Tableau.
+Using the Yahoo Sports API, I created a data pipeline that retrieves data from Yahoo Sports. I cleaned this data and used it for analysis in Tableau to visualize statistics and help with decision-making. In addition, the script allows the user to add or drop players to automate roster management.
