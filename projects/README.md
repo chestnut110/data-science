@@ -66,7 +66,7 @@ NA
 
 ## API
 
-NA
+Yahoo Sports API
 
 ## Contributing
 
