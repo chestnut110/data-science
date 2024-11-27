@@ -66,7 +66,7 @@ NA
 
 ## API
 
-Yahoo Sports API
+[Yahoo Sports API](https://developer.yahoo.com/api/)
 
 ## Contributing
 
