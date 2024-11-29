@@ -1,6 +1,6 @@
 # Insights Deep-Dive
 
-<img src="projects/Hospital_Readmission_Analysis/Screenshot 2024-11-29 105452.png" alt="Logo">
+![Screenshot 2024-11-29 105452](https://github.com/user-attachments/assets/feeb3b76-2ba9-4b5f-abfd-eef7620eabca)
 
 ## Patient Admissions & Readmissions:
 1,135 patient admissions were identified from 28,000 encounters.
