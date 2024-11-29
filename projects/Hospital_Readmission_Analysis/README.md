@@ -1,5 +1,7 @@
 # Insights Deep-Dive
 
+<img src="https://cdn.prod.website-files.com/63ccf2f0ea97be12ead278ed/644a18b637053fa3709c5ba2_what-is-data-science.jpg" alt="Logo">
+
 ## Patient Admissions & Readmissions:
 1,135 patient admissions were identified from 28,000 encounters.
 396 unique patients were admitted, with a peak in unique admissions in 2014 and 2020.
