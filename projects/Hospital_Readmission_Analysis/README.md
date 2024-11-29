@@ -41,7 +41,7 @@ Should readmissions be related to the same medical conditions or reasons as the 
 How are encounter entries recorded? Given that some admissions are logged exactly 24 hours apart, how should these be treated? Are these entries reset daily, or should they be considered continuous admissions?<br><br>
 
 ## Assumptions and Caveats
-The readmission rates are based on a 30-day interval for returning patients.<br><br>
+The readmission rates are based on a 30-day interval for returning patients with encounter class "inpatient".<br><br>
 Encounters are considered readmissions regardless of previous reason for visit.<br><br>
 Drop in readmission rate on 2020 onwards was assumed to be caused by the pandemic.<br><br>
 Length of stay calculations only include encounters labeled as inpatient admissions.<br><br>
