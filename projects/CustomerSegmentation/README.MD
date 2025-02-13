@@ -4,5 +4,5 @@ In this project, I will be performing an unsupervised clustering of data on the 
 <br>
 <br>
 <p align="center">
-![banner](https://blog.dataiku.com/hs-fs/hubfs/Katie%20g.png?width=600&name=Katie%20g.png)
+<img src="https://blog.dataiku.com/hs-fs/hubfs/Katie%20g.png?width=600&name=Katie%20g.png" alt="Logo">
 </p>
