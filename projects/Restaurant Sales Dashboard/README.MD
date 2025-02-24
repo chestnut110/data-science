@@ -27,11 +27,9 @@ The dataset was analyzed using SQL queries in PostgreSQL to derive insights.<br>
 <b>Key Business Metrics:</b><br>
 
 Total Revenue:<br>
-
 SELECT SUM(total_price) AS total_revenue FROM sales_data;<br>
 
 Average Order Value:<br>
-
 SELECT SUM(total_price) / COUNT(DISTINCT order_id) AS avg_order_value FROM sales_data;<br>
 
 Total Pizzas Sold:<br>
