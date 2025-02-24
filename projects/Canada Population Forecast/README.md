@@ -11,3 +11,27 @@ This project analyzes and forecasts Canada's population trends for the next 10 y
 ✅ Tableau Dashboard: Interactive visualizations for data-driven decision-making<br>
 ✅ Forecasting Techniques: Exponential Smoothing, ARIMA, Cohort Component Model<br>
 ✅ Policy Recommendations: Insights for healthcare, labor markets, and infrastructure planning
+
+### 📊 Data Sources & Preprocessing
+
+Source: Statistics Canada (2014-2023 historical data)<br>
+<br>
+Cleaning & Processing:<br>
+
+Handled missing values with linear interpolation<br>
+Standardized column names & data types<br>
+Filtered anomalies and ensured consistency<br>
+
+📈 Forecasting Techniques Used
+
+Exponential Smoothing (Holt-Winters Method) → Captures short-term growth trends
+
+ARIMA (AutoRegressive Integrated Moving Average) → Projects long-term shifts
+
+Cohort Component Model (CCM) → Incorporates birth rates, death rates & migration trends
+
+Monte Carlo Simulation (Optional) → Assesses uncertainties in projection models
+
+📊 Visualizations & Insights (Tableau Dashboard)
+
+🟩 Heatmap: Population Age Distribution by Province → Identifies regions with rapid aging📉 Line Chart: Population Growth Trends → Highlights fast-growing provinces📊 Bar Chart: Migration Trends by Province → Shows migration patterns📌 Forecasting Dashboard → Provides scenario-based projections for urban planning
