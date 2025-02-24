@@ -1,5 +1,7 @@
 # Restaurant Sales Dashboard
 
+ <img src="https://github.com/chestnut110/data-science/blob/fd482adad3efe8801359eddfbe842bdfae1708a7/projects/IBM%20Data%20Analyst%20Professional%20Certificate/Data%20Visualizations%20and%20Dashboards/CustomerLoyalty.png" alt="Logo">
+
 ## Project Overview
 
 This project involves analyzing a restaurant's sales data and building an interactive sales dashboard to derive insights. The analysis was performed using PostgreSQL to query the dataset, and the results were visualized using a dashboard. The goal was to uncover key business metrics such as total revenue, best-selling pizzas, and sales trends over time.
