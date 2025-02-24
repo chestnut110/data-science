@@ -6,7 +6,7 @@ This project involves analyzing a restaurant's sales data and building an intera
 
 ## Data Source
 
-The dataset used for this project consists of restaurant sales data stored in a CSV file. The dataset includes:<br>
+The dataset used for this project consists of restaurant sales data stored in a CSV file. The dataset includes:<br><br>
 Order date<br>
 Order ID<br>
 Pizza name, category, and size<br>
@@ -34,20 +34,26 @@ Total Pizzas Sold: SELECT SUM(quantity) AS total_pizza_sold FROM sales_data;<br>
 
 Total Orders: SELECT COUNT(DISTINCT order_id) AS total_orders FROM sales_data;<br>
 
-Average Pizzas per Order: SELECT CAST(CAST(SUM(quantity) AS DECIMAL(10,2)) / CAST(COUNT(DISTINCT order_id) AS DECIMAL(10,2)) AS DECIMAL(10,2))
+Average Pizzas per Order:<br><br>
+
+SELECT CAST(CAST(SUM(quantity) AS DECIMAL(10,2)) / CAST(COUNT(DISTINCT order_id) AS DECIMAL(10,2)) AS DECIMAL(10,2))
 AS avg_pizzas_per_order FROM sales_data;<br>
 
 <b>Sales Trends:</b>
 
-Orders by Day of the Week: SELECT TO_CHAR(order_date,'Day') AS order_day, COUNT(DISTINCT order_id) AS total_orders
+Orders by Day of the Week:<br><br>
+
+SELECT TO_CHAR(order_date,'Day') AS order_day, COUNT(DISTINCT order_id) AS total_orders
 FROM sales_data GROUP BY TO_CHAR(order_date,'Day');<br>
 
-Orders by Month: SELECT TO_CHAR(order_date,'Month') AS month_name, COUNT(DISTINCT order_id) AS total_orders
+Orders by Month:<br><br>
+
+SELECT TO_CHAR(order_date,'Month') AS month_name, COUNT(DISTINCT order_id) AS total_orders
 FROM sales_data GROUP BY TO_CHAR(order_date,'Month') ORDER BY total_orders DESC;<br>
 
-Sales Breakdown:
+<b>Sales Breakdown:</b>
 
-Sales by Pizza Category:
+Sales by Pizza Category:<br><br>
 
 SELECT pizza_category, SUM(total_price) AS total_sales,
 SUM(total_price) * 100 / (SELECT SUM(total_price) FROM sales_data) AS PCT
