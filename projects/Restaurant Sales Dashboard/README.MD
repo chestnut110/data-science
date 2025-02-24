@@ -24,7 +24,7 @@ Power BI – For creating the dashboard<br>
 
 The dataset was analyzed using SQL queries in PostgreSQL to derive insights.<br>
 
-<b>Key Business Metrics:</b><br>
+### Key Business Metrics:
 
 Total Revenue:<br>
 SELECT SUM(total_price) AS total_revenue FROM sales_data;<br>
@@ -42,7 +42,7 @@ Average Pizzas per Order:<br>
 SELECT CAST(CAST(SUM(quantity) AS DECIMAL(10,2)) / CAST(COUNT(DISTINCT order_id) AS DECIMAL(10,2)) AS DECIMAL(10,2))
 AS avg_pizzas_per_order FROM sales_data;<br>
 
-<b>Sales Trends:</b><br><br>
+### Sales Trends:
 
 Orders by Day of the Week:<br>
 SELECT TO_CHAR(order_date,'Day') AS order_day, COUNT(DISTINCT order_id) AS total_orders
@@ -52,7 +52,7 @@ Orders by Month:<br>
 SELECT TO_CHAR(order_date,'Month') AS month_name, COUNT(DISTINCT order_id) AS total_orders
 FROM sales_data GROUP BY TO_CHAR(order_date,'Month') ORDER BY total_orders DESC;<br>
 
-<b>Sales Breakdown:</b><br><br>
+### Sales Breakdown:
 
 Sales by Pizza Category:<br>
 SELECT pizza_category, SUM(total_price) AS total_sales,
@@ -64,7 +64,7 @@ SELECT pizza_size, SUM(total_price) AS total_sales,
 SUM(total_price) * 100 / (SELECT SUM(total_price) FROM sales_data) AS PCT
 FROM sales_data GROUP BY pizza_size;
 
-<b>Best & Worst Performing Pizzas:</b>
+### Best & Worst Performing Pizzas:
 
 Top 5 Pizzas by Revenue:<br>
 ORDER BY total_revenue DESC LIMIT 5;<br>
@@ -78,7 +78,7 @@ ORDER BY total_revenue ASC LIMIT 5;<br>
 Bottom 5 Pizzas by Quantity Sold:<br>
 ORDER BY total_quantity ASC LIMIT 5;<br>
 
-Dashboard Summary
+## Dashboard Summary
 
 The dashboard includes:
 
@@ -90,17 +90,7 @@ Top & Bottom Selling Pizzas: Revenue and order count for individual pizzas.
 
 Category & Size Sales Distribution: Breakdown of sales by pizza category and size.
 
-How to Use
-
-Clone this repository: git clone <repo-link>
-
-Import the provided dataset into PostgreSQL.
-
-Run the provided SQL queries to explore the data.
-
-Use Power BI / Tableau to create custom visualizations.
-
-Conclusion & Next Steps
+## Conclusion & Next Steps
 
 This project provides valuable insights into restaurant sales and customer preferences. Possible next steps include:
 
