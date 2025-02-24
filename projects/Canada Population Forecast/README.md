@@ -2,7 +2,7 @@
 
 ### 📌 Overview
 
-This project analyzes and forecasts Canada's population trends for the next 10 years (2024-2033) using historical data from Statistics Canada (2014-2023). The goal is to provide data-driven insights to support policymakers, urban planners, and government officials in making informed decisions on infrastructure development, healthcare planning, and workforce policies.
+This project analyzes and forecasts Canada's population trends for the next 10 years (2024-2033) using historical data from Statistics Canada (2014-2023). The goal is to provide data-driven insights to support policymakers, urban planners, and government officials in making informed decisions on infrastructure development, healthcare planning, and workforce policies.<br>
 
 ### 📊 Key Features
 
@@ -10,7 +10,7 @@ This project analyzes and forecasts Canada's population trends for the next 10 y
 ✅ Demographic Analysis: Examines aging population, youth migration, and urbanization trends<br>
 ✅ Tableau Dashboard: Interactive visualizations for data-driven decision-making<br>
 ✅ Forecasting Techniques: Exponential Smoothing, ARIMA, Cohort Component Model<br>
-✅ Policy Recommendations: Insights for healthcare, labor markets, and infrastructure planning
+✅ Policy Recommendations: Insights for healthcare, labor markets, and infrastructure planning<br>
 
 ### 📊 Data Sources & Preprocessing
 
@@ -22,7 +22,7 @@ Handled missing values with linear interpolation<br>
 Standardized column names & data types<br>
 Filtered anomalies and ensured consistency<br>
 Pivoted and unpivoted raw data for better structuring<br>
-Created age buckets for population cohorts
+Created age buckets for population cohorts<br>
 
 ### 📈 Forecasting Techniques Used
 
@@ -41,7 +41,7 @@ Cohort Component Model (CCM) → Incorporates birth rates, death rates & migrati
 🔹 Aging Population → Increased demand for healthcare & senior housing particularly in Ontario, Quebec, Alberta, and BC<br>
 🔹 Youth Migration → Some provinces face net youth out-migration particularly from the maritime and prairie provinces<br>
 🔹 Urban Growth → Expansion needed in public transit, housing, & schools for Ontario, Quebec, Alberta, and BC<br>
-🔹 Workforce Trends → Growth in working-age population requires policy adjustments
+🔹 Workforce Trends → Growth in working-age population requires policy adjustments<br>
 
 ### 🔗 Acknowledgments & References
 
