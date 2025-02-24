@@ -1,6 +1,7 @@
 # Restaurant Sales Dashboard
 
- <img src="https://github.com/chestnut110/data-science/blob/fd482adad3efe8801359eddfbe842bdfae1708a7/projects/IBM%20Data%20Analyst%20Professional%20Certificate/Data%20Visualizations%20and%20Dashboards/CustomerLoyalty.png" alt="Logo">
+<img src="https://github.com/chestnut110/data-science/blob/main/projects/Restaurant%20Sales%20Dashboard/Home.png" alt="Logo">
+<img src="https://github.com/chestnut110/data-science/blob/main/projects/Restaurant%20Sales%20Dashboard/Home.png" alt="Logo">
 
 ## Project Overview
 
