@@ -22,40 +22,42 @@ Power BI – For creating the dashboard<br>
 
 ## SQL Queries & Insights
 
-The dataset was analyzed using SQL queries in PostgreSQL to derive insights. Key queries included:<br>
+The dataset was analyzed using SQL queries in PostgreSQL to derive insights.<br>
 
-<b>Key Business Metrics:</b>
+<b>Key Business Metrics:</b><br>
 
-Total Revenue:<br><br>
+Total Revenue:<br>
 
 SELECT SUM(total_price) AS total_revenue FROM sales_data;<br>
 
-Average Order Value:<br><br>
+Average Order Value:<br>
 
 SELECT SUM(total_price) / COUNT(DISTINCT order_id) AS avg_order_value FROM sales_data;<br>
 
-Total Pizzas Sold: SELECT SUM(quantity) AS total_pizza_sold FROM sales_data;<br>
+Total Pizzas Sold:<br>
+SELECT SUM(quantity) AS total_pizza_sold FROM sales_data;<br>
 
-Total Orders: SELECT COUNT(DISTINCT order_id) AS total_orders FROM sales_data;<br>
+Total Orders:<br>
+SELECT COUNT(DISTINCT order_id) AS total_orders FROM sales_data;<br>
 
-Average Pizzas per Order:<br><br>
+Average Pizzas per Order:<br>
 
 SELECT CAST(CAST(SUM(quantity) AS DECIMAL(10,2)) / CAST(COUNT(DISTINCT order_id) AS DECIMAL(10,2)) AS DECIMAL(10,2))
 AS avg_pizzas_per_order FROM sales_data;<br>
 
-<b>Sales Trends:</b>
+<b>Sales Trends:</b><br><br>
 
-Orders by Day of the Week:<br><br>
+Orders by Day of the Week:<br>
 
 SELECT TO_CHAR(order_date,'Day') AS order_day, COUNT(DISTINCT order_id) AS total_orders
 FROM sales_data GROUP BY TO_CHAR(order_date,'Day');<br>
 
-Orders by Month:<br><br>
+Orders by Month:<br>
 
 SELECT TO_CHAR(order_date,'Month') AS month_name, COUNT(DISTINCT order_id) AS total_orders
 FROM sales_data GROUP BY TO_CHAR(order_date,'Month') ORDER BY total_orders DESC;<br>
 
-<b>Sales Breakdown:</b>
+<b>Sales Breakdown:</b><br><br>
 
 Sales by Pizza Category:<br><br>
 
