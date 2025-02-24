@@ -39,45 +39,44 @@ Total Orders:<br>
 SELECT COUNT(DISTINCT order_id) AS total_orders FROM sales_data;<br>
 
 Average Pizzas per Order:<br>
-
 SELECT CAST(CAST(SUM(quantity) AS DECIMAL(10,2)) / CAST(COUNT(DISTINCT order_id) AS DECIMAL(10,2)) AS DECIMAL(10,2))
 AS avg_pizzas_per_order FROM sales_data;<br>
 
 <b>Sales Trends:</b><br><br>
 
 Orders by Day of the Week:<br>
-
 SELECT TO_CHAR(order_date,'Day') AS order_day, COUNT(DISTINCT order_id) AS total_orders
 FROM sales_data GROUP BY TO_CHAR(order_date,'Day');<br>
 
 Orders by Month:<br>
-
 SELECT TO_CHAR(order_date,'Month') AS month_name, COUNT(DISTINCT order_id) AS total_orders
 FROM sales_data GROUP BY TO_CHAR(order_date,'Month') ORDER BY total_orders DESC;<br>
 
 <b>Sales Breakdown:</b><br><br>
 
-Sales by Pizza Category:<br><br>
-
+Sales by Pizza Category:<br>
 SELECT pizza_category, SUM(total_price) AS total_sales,
 SUM(total_price) * 100 / (SELECT SUM(total_price) FROM sales_data) AS PCT
 FROM sales_data GROUP BY pizza_category;
 
-Sales by Pizza Size:
-
+Sales by Pizza Size:<br>
 SELECT pizza_size, SUM(total_price) AS total_sales,
 SUM(total_price) * 100 / (SELECT SUM(total_price) FROM sales_data) AS PCT
 FROM sales_data GROUP BY pizza_size;
 
-Best & Worst Performing Pizzas:
+<b>Best & Worst Performing Pizzas:</b>
 
-Top 5 Pizzas by Revenue: ORDER BY total_revenue DESC LIMIT 5;
+Top 5 Pizzas by Revenue:<br>
+ORDER BY total_revenue DESC LIMIT 5;<br>
 
-Top 5 Pizzas by Quantity Sold: ORDER BY total_quantity DESC LIMIT 5;
+Top 5 Pizzas by Quantity Sold:<br>
+ORDER BY total_quantity DESC LIMIT 5;<br>
 
-Bottom 5 Pizzas by Revenue: ORDER BY total_revenue ASC LIMIT 5;
+Bottom 5 Pizzas by Revenue:<br>
+ORDER BY total_revenue ASC LIMIT 5;<br>
 
-Bottom 5 Pizzas by Quantity Sold: ORDER BY total_quantity ASC LIMIT 5;
+Bottom 5 Pizzas by Quantity Sold:<br>
+ORDER BY total_quantity ASC LIMIT 5;<br>
 
 Dashboard Summary
 
