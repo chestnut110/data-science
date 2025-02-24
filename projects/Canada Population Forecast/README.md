@@ -35,4 +35,18 @@ Cohort Component Model (CCM) → Incorporates birth rates, death rates & migrati
 🟩 Heatmap: Population Age Distribution by Province → Identifies regions with rapid aging<br>
 📉 Line Chart: Population Growth Trends → Highlights fast-growing provinces<br>
 📊 Bar Chart: Migration Trends by Province → Shows migration patterns<br>
-📌 Forecasting Dashboard → Provides scenario-based projections for urban planning
+
+### 📌 Key Insights & Policy Recommendations
+
+🔹 Aging Population → Increased demand for healthcare & senior housing particularly in Ontario, Quebec, Alberta, and BC<br>
+🔹 Youth Migration → Some provinces face net youth out-migration particularly from the maritime and prairie provinces<br>
+🔹 Urban Growth → Expansion needed in public transit, housing, & schools for Ontario, Quebec, Alberta, and BC<br>
+🔹 Workforce Trends → Growth in working-age population requires policy adjustments
+
+### 🔗 Acknowledgments & References
+
+Statistics Canada for historical population data<br>
+
+Tableau & Python (Pandas, Statsmodels, Scikit-learn) for data processing & visualization<br><br>
+
+📌 Author: Chester (Data Analyst)📅 Last Updated: February 2025
