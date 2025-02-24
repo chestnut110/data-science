@@ -1,7 +1,7 @@
 # Restaurant Sales Dashboard
 
 <img src="https://github.com/chestnut110/data-science/blob/main/projects/Restaurant%20Sales%20Dashboard/Home.png" alt="Logo">
-<img src="https://github.com/chestnut110/data-science/blob/main/projects/Restaurant%20Sales%20Dashboard/Home.png" alt="Logo">
+<img src="https://github.com/chestnut110/data-science/blob/main/projects/Restaurant%20Sales%20Dashboard/TopSellers.png" alt="Logo">
 
 ## Project Overview
 
